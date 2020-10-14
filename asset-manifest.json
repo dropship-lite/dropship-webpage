@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dropshiplite.ga/static/css/main.876b55ca.chunk.css",
-    "main.js": "/dropshiplite.ga/static/js/main.556ab823.chunk.js",
-    "main.js.map": "/dropshiplite.ga/static/js/main.556ab823.chunk.js.map",
+    "main.js": "/dropshiplite.ga/static/js/main.8640cd22.chunk.js",
+    "main.js.map": "/dropshiplite.ga/static/js/main.8640cd22.chunk.js.map",
     "runtime-main.js": "/dropshiplite.ga/static/js/runtime-main.7cd86486.js",
     "runtime-main.js.map": "/dropshiplite.ga/static/js/runtime-main.7cd86486.js.map",
     "static/js/2.1c2266c0.chunk.js": "/dropshiplite.ga/static/js/2.1c2266c0.chunk.js",
     "static/js/2.1c2266c0.chunk.js.map": "/dropshiplite.ga/static/js/2.1c2266c0.chunk.js.map",
     "index.html": "/dropshiplite.ga/index.html",
-    "precache-manifest.648f2cbfc043ce76336bbd826b77be70.js": "/dropshiplite.ga/precache-manifest.648f2cbfc043ce76336bbd826b77be70.js",
+    "precache-manifest.eb5e64af49593240d1331597267b7d82.js": "/dropshiplite.ga/precache-manifest.eb5e64af49593240d1331597267b7d82.js",
     "service-worker.js": "/dropshiplite.ga/service-worker.js",
     "static/css/main.876b55ca.chunk.css.map": "/dropshiplite.ga/static/css/main.876b55ca.chunk.css.map",
     "static/js/2.1c2266c0.chunk.js.LICENSE.txt": "/dropshiplite.ga/static/js/2.1c2266c0.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.7cd86486.js",
     "static/js/2.1c2266c0.chunk.js",
     "static/css/main.876b55ca.chunk.css",
-    "static/js/main.556ab823.chunk.js"
+    "static/js/main.8640cd22.chunk.js"
   ]
 }
