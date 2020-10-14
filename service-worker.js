@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dropshiplite.ga/precache-manifest.678c82885e03a3cdf3433de3df768af0.js"
+  "/dropshiplite.ga/precache-manifest.03c91c8bad72d808f56fa49aca890a34.js"
 );
 
 self.addEventListener('message', (event) => {
