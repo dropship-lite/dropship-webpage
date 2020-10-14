@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dropshiplite.ga/static/css/main.876b55ca.chunk.css",
+    "main.js": "/dropshiplite.ga/static/js/main.241a9501.chunk.js",
+    "main.js.map": "/dropshiplite.ga/static/js/main.241a9501.chunk.js.map",
+    "runtime-main.js": "/dropshiplite.ga/static/js/runtime-main.7cd86486.js",
+    "runtime-main.js.map": "/dropshiplite.ga/static/js/runtime-main.7cd86486.js.map",
+    "static/js/2.3f088002.chunk.js": "/dropshiplite.ga/static/js/2.3f088002.chunk.js",
+    "static/js/2.3f088002.chunk.js.map": "/dropshiplite.ga/static/js/2.3f088002.chunk.js.map",
+    "index.html": "/dropshiplite.ga/index.html",
+    "precache-manifest.f3c45321b2a9f5e1b5a5516e094c0807.js": "/dropshiplite.ga/precache-manifest.f3c45321b2a9f5e1b5a5516e094c0807.js",
+    "service-worker.js": "/dropshiplite.ga/service-worker.js",
+    "static/css/main.876b55ca.chunk.css.map": "/dropshiplite.ga/static/css/main.876b55ca.chunk.css.map",
+    "static/js/2.3f088002.chunk.js.LICENSE.txt": "/dropshiplite.ga/static/js/2.3f088002.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/dropshiplite.ga/static/media/bg2.b331f0e7.webp",
+    "static/media/dropship-logo.png": "/dropshiplite.ga/static/media/dropship-logo.9711bd42.png",
+    "static/media/logo.gif": "/dropshiplite.ga/static/media/logo.cc77168d.gif",
+    "static/media/paypal.png": "/dropshiplite.ga/static/media/paypal.a92c53be.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7cd86486.js",
+    "static/js/2.3f088002.chunk.js",
+    "static/css/main.876b55ca.chunk.css",
+    "static/js/main.241a9501.chunk.js"
+  ]
+}
