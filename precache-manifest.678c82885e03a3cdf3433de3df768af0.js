@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3fc7013d53ff742d9b53fe05bb280330",
+    "revision": "c403f388bc23be5d16ff3b94a1f17269",
     "url": "/dropshiplite.ga/index.html"
   },
   {
-    "revision": "b3135920d44ba473eced",
+    "revision": "60c4fdcd45a6f9681b94",
     "url": "/dropshiplite.ga/static/css/main.876b55ca.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dropshiplite.ga/static/js/2.1c2266c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3135920d44ba473eced",
-    "url": "/dropshiplite.ga/static/js/main.8640cd22.chunk.js"
+    "revision": "60c4fdcd45a6f9681b94",
+    "url": "/dropshiplite.ga/static/js/main.c4563c80.chunk.js"
   },
   {
     "revision": "82150a69062baeff2779",
