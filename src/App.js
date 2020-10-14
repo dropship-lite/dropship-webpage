@@ -9,7 +9,7 @@ import AfterDonate from './donate/after-donate';
 
 function App(){
   return (
-    <Router>
+    <Router  basename={process.env.PUBLIC_URL}>
     <Switch>
       <div className='page-container' style={{height:'100vh'}}>
         <div className='page-content'>
