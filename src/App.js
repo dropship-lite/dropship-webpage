@@ -3,7 +3,7 @@ import Homepage from './home/homepage/homepage'
 import './App.css';
 import Firefly from './home/fireflies/fireflies'
 import Footer from './home/homepage/footer'
-import {Route, BrowserRouter as Router, Switch, Link} from 'react-router-dom'
+import {HashRouter as Router, Switch, Link, Route} from 'react-router-dom'
 import DonationPage from './donate/donate'
 import AfterDonate from './donate/after-donate';
 
