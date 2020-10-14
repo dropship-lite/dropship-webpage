@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/dropship-webpage/static/css/main.33ee9e55.chunk.css",
-    "main.js": "/dropship-webpage/static/js/main.47f1a50e.chunk.js",
-    "main.js.map": "/dropship-webpage/static/js/main.47f1a50e.chunk.js.map",
-    "runtime-main.js": "/dropship-webpage/static/js/runtime-main.2dd08d16.js",
-    "runtime-main.js.map": "/dropship-webpage/static/js/runtime-main.2dd08d16.js.map",
-    "static/js/2.96bf28be.chunk.js": "/dropship-webpage/static/js/2.96bf28be.chunk.js",
-    "static/js/2.96bf28be.chunk.js.map": "/dropship-webpage/static/js/2.96bf28be.chunk.js.map",
-    "index.html": "/dropship-webpage/index.html",
-    "precache-manifest.9f72ca3b0cc56ff22f23629230b73383.js": "/dropship-webpage/precache-manifest.9f72ca3b0cc56ff22f23629230b73383.js",
-    "service-worker.js": "/dropship-webpage/service-worker.js",
-    "static/css/main.33ee9e55.chunk.css.map": "/dropship-webpage/static/css/main.33ee9e55.chunk.css.map",
-    "static/js/2.96bf28be.chunk.js.LICENSE.txt": "/dropship-webpage/static/js/2.96bf28be.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/dropship-webpage/static/media/bg2.b331f0e7.webp",
-    "static/media/dropship-logo.png": "/dropship-webpage/static/media/dropship-logo.9711bd42.png",
-    "static/media/logo.gif": "/dropship-webpage/static/media/logo.cc77168d.gif",
-    "static/media/paypal.png": "/dropship-webpage/static/media/paypal.a92c53be.png"
+    "main.css": "/static/css/main.bc146976.chunk.css",
+    "main.js": "/static/js/main.2044d3c5.chunk.js",
+    "main.js.map": "/static/js/main.2044d3c5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2f15d624.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2f15d624.js.map",
+    "static/js/2.96bf28be.chunk.js": "/static/js/2.96bf28be.chunk.js",
+    "static/js/2.96bf28be.chunk.js.map": "/static/js/2.96bf28be.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.86b72b034862ae81e3e2dd42cf3c6c65.js": "/precache-manifest.86b72b034862ae81e3e2dd42cf3c6c65.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.bc146976.chunk.css.map": "/static/css/main.bc146976.chunk.css.map",
+    "static/js/2.96bf28be.chunk.js.LICENSE.txt": "/static/js/2.96bf28be.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/bg2.b331f0e7.webp",
+    "static/media/dropship-logo.png": "/static/media/dropship-logo.9711bd42.png",
+    "static/media/logo.gif": "/static/media/logo.cc77168d.gif",
+    "static/media/paypal.png": "/static/media/paypal.a92c53be.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2dd08d16.js",
+    "static/js/runtime-main.2f15d624.js",
     "static/js/2.96bf28be.chunk.js",
-    "static/css/main.33ee9e55.chunk.css",
-    "static/js/main.47f1a50e.chunk.js"
+    "static/css/main.bc146976.chunk.css",
+    "static/js/main.2044d3c5.chunk.js"
   ]
 }
