@@ -23,7 +23,7 @@ function App(){
               <Route path='/thank-you' exact render={props=><AfterDonate/>} component={AfterDonate} ></Route>
               <Route path='/donate' exact render={props=><DonationPage/>} component={DonationPage} ></Route>
               <Route path='/' exact render={props=><Homepage/>} component={Homepage} ></Route>
-              <Route  component={Homepage} />
+             
           </div>
         </div>
         <div className='page-link' style={{position:'absolute'}}>
