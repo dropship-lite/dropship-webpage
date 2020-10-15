@@ -4,7 +4,7 @@ import moduleName from './homepage-style.css'
 
 function Homepage(){
     function click(){
-        window.location.href = 'https://firebasestorage.googleapis.com/v0/b/dropship-lite.appspot.com/o/dropshipLite%2Fdropship-lite.apk?alt=media&token=c68f5453-bb0c-406a-a0f7-c7706fa9c7f6'
+        window.location.href = 'https://firebasestorage.googleapis.com/v0/b/dropship-lite.appspot.com/o/dropshipLite%2Fdropship-lite-v1.apk?alt=media&token=9fc766c4-9c6c-4f07-91f9-6693e79e24e8'
     }
     const headerlogo = require('../../assets/images/logo.gif') 
     return (
