@@ -6,8 +6,17 @@ import Footer from './home/homepage/footer'
 import {BrowserRouter as Router, Switch, Link, Route} from 'react-router-dom'
 import DonationPage from './donate/donate'
 import AfterDonate from './donate/after-donate';
+import ReactGA from 'react-ga'
 
 function App(){
+
+  React.useEffect(() => {
+    ReactGA.initialize('UA-180756841-1')
+
+    let audiences = ReactGA.pageview('/')
+    console.log( `GA audiences ${audiences}`)
+  }, [])
+  
   return (
     <Router  basename={process.env.PUBLIC_URL}>
     <Switch>
