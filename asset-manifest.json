@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.889d539a.chunk.css",
-    "main.js": "/static/js/main.9407e2ba.chunk.js",
-    "main.js.map": "/static/js/main.9407e2ba.chunk.js.map",
+    "main.js": "/static/js/main.56bc88ef.chunk.js",
+    "main.js.map": "/static/js/main.56bc88ef.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2f15d624.js",
     "runtime-main.js.map": "/static/js/runtime-main.2f15d624.js.map",
-    "static/js/2.3f088002.chunk.js": "/static/js/2.3f088002.chunk.js",
-    "static/js/2.3f088002.chunk.js.map": "/static/js/2.3f088002.chunk.js.map",
+    "static/js/2.8e2bcf64.chunk.js": "/static/js/2.8e2bcf64.chunk.js",
+    "static/js/2.8e2bcf64.chunk.js.map": "/static/js/2.8e2bcf64.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c50d7bc99fd39c879a679cfa7a3e4e97.js": "/precache-manifest.c50d7bc99fd39c879a679cfa7a3e4e97.js",
+    "precache-manifest.6d0663d7e5178fa380231c7622a58c95.js": "/precache-manifest.6d0663d7e5178fa380231c7622a58c95.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.889d539a.chunk.css.map": "/static/css/main.889d539a.chunk.css.map",
-    "static/js/2.3f088002.chunk.js.LICENSE.txt": "/static/js/2.3f088002.chunk.js.LICENSE.txt",
+    "static/js/2.8e2bcf64.chunk.js.LICENSE.txt": "/static/js/2.8e2bcf64.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/bg2.b331f0e7.webp",
     "static/media/dropship-logo.png": "/static/media/dropship-logo.9711bd42.png",
     "static/media/logo.gif": "/static/media/logo.cc77168d.gif",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2f15d624.js",
-    "static/js/2.3f088002.chunk.js",
+    "static/js/2.8e2bcf64.chunk.js",
     "static/css/main.889d539a.chunk.css",
-    "static/js/main.9407e2ba.chunk.js"
+    "static/js/main.56bc88ef.chunk.js"
   ]
 }
