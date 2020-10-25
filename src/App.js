@@ -13,8 +13,7 @@ function App(){
   React.useEffect(() => {
     ReactGA.initialize('UA-180756841-1')
 
-    let audiences = ReactGA.pageview('/')
-    console.log( `GA audiences ${audiences}`)
+    ReactGA.pageview(window.location.pathname + window.location.search)
   }, [])
   
   return (
@@ -22,9 +21,9 @@ function App(){
     <Switch>
       <div className='page-container' style={{height:'100vh'}}>
         <div className='page-content'>
-          <div style={{position:'absolute',}}>
+          {/* <div className='footer' style={{position:'absolute',}}>
             <Footer/>
-          </div>
+          </div> */}
           <div style={{position:'absolute',}}>
             <Firefly/>
           </div>

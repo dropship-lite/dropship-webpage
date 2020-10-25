@@ -80,6 +80,56 @@ h1{
     cursor: pointer;
 }
 
+.hp-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150vh;
+}
+
+.hp-body .text{
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #e6739f;
+    width: 40vw;
+    font-family: 'Bree Serif';
+    color: white;
+    text-align: center;
+}
+
+.hp .footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: #c62a88;
+    position: fixed;
+    bottom: 10px;
+}
+
+.foot{
+    /* background-color: violet; */
+    position: fixed;
+    bottom: 10px;
+}
+
+.foot .content{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot .content .text{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Bree Serif';
+}
+
+.foot .content .divider{
+    background-color: whitesmoke;
+    height: 3px;
+    width: 10%;
+}
+
 
 /* .download{
     margin: 10px;

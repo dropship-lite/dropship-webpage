@@ -56,8 +56,9 @@ input::-webkit-inner-spin-button {
   .page-link{
     margin: 10px;
   }
-  .Footer{
-    margin-bottom: 10px;
+
+  .footer{
+    position: sticky;
   }
 
   .Paypal{
