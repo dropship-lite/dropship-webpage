@@ -2,7 +2,6 @@ import React, { useState, } from 'react';
 import Homepage from './home/homepage/homepage'
 import './App.css';
 import Firefly from './home/fireflies/fireflies'
-import Footer from './home/homepage/footer'
 import {BrowserRouter as Router, Switch, Link, Route} from 'react-router-dom'
 import DonationPage from './donate/donate'
 import AfterDonate from './donate/after-donate';

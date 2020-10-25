@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import moduleName from './homepage-style.css'
-import footerstyle from '../homepage/footer.css'
 import ReactGA from 'react-ga'
 import {BrowserRouter as Router, Switch, Link, Route} from 'react-router-dom'
 
