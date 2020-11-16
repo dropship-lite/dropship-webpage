@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4cbf970d62895699ca7b3f7f58c8241",
+    "revision": "b2e9a18849aba391686da53ae53899b5",
     "url": "/index.html"
   },
   {
-    "revision": "84d94e73c719c000481b",
-    "url": "/static/css/main.09a5fa79.chunk.css"
+    "revision": "6564f3a1874e175b8aac",
+    "url": "/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "baafcc79909989ca8be6",
-    "url": "/static/js/2.6900982d.chunk.js"
+    "revision": "6e50b4a1319fefe13aaf",
+    "url": "/static/css/main.a4aebdd9.chunk.css"
+  },
+  {
+    "revision": "6564f3a1874e175b8aac",
+    "url": "/static/js/2.07760d28.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.6900982d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.07760d28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "84d94e73c719c000481b",
-    "url": "/static/js/main.b3fd6721.chunk.js"
+    "revision": "6e50b4a1319fefe13aaf",
+    "url": "/static/js/main.9453d9d4.chunk.js"
   },
   {
     "revision": "e83a818b61b9e3c986db",
@@ -30,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9711bd42a27a014053e6c74d23b1ef48",
     "url": "/static/media/dropship-logo.9711bd42.png"
-  },
-  {
-    "revision": "cc77168da9485f186100245b7afe3403",
-    "url": "/static/media/logo.cc77168d.gif"
   },
   {
     "revision": "a92c53beba82cd247020318867b8792f",
