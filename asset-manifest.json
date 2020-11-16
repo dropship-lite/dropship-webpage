@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.bded0283.chunk.css",
+    "main.css": "/static/css/main.09a5fa79.chunk.css",
     "main.js": "/static/js/main.b3fd6721.chunk.js",
     "main.js.map": "/static/js/main.b3fd6721.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2f15d624.js",
@@ -8,9 +8,9 @@
     "static/js/2.6900982d.chunk.js": "/static/js/2.6900982d.chunk.js",
     "static/js/2.6900982d.chunk.js.map": "/static/js/2.6900982d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.aed40550749da1d4408c6ef230d11f58.js": "/precache-manifest.aed40550749da1d4408c6ef230d11f58.js",
+    "precache-manifest.4d0ce788aaa8bd900bf1dee879c13f9f.js": "/precache-manifest.4d0ce788aaa8bd900bf1dee879c13f9f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.bded0283.chunk.css.map": "/static/css/main.bded0283.chunk.css.map",
+    "static/css/main.09a5fa79.chunk.css.map": "/static/css/main.09a5fa79.chunk.css.map",
     "static/js/2.6900982d.chunk.js.LICENSE.txt": "/static/js/2.6900982d.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/bg.c6455320.jpg",
     "static/media/dropship-logo.png": "/static/media/dropship-logo.9711bd42.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.2f15d624.js",
     "static/js/2.6900982d.chunk.js",
-    "static/css/main.bded0283.chunk.css",
+    "static/css/main.09a5fa79.chunk.css",
     "static/js/main.b3fd6721.chunk.js"
   ]
 }
