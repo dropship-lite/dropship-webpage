@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f493ca2d.chunk.css",
+    "main.css": "/static/css/main.82f181a0.chunk.css",
     "main.js": "/static/js/main.cbfcc578.chunk.js",
     "main.js.map": "/static/js/main.cbfcc578.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2f15d624.js",
@@ -9,10 +9,10 @@
     "static/js/2.166e65ac.chunk.js": "/static/js/2.166e65ac.chunk.js",
     "static/js/2.166e65ac.chunk.js.map": "/static/js/2.166e65ac.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c139d935eb8b8467d7c31d681ef59250.js": "/precache-manifest.c139d935eb8b8467d7c31d681ef59250.js",
+    "precache-manifest.28bd084ffb4d6eb03733df03b7fc6499.js": "/precache-manifest.28bd084ffb4d6eb03733df03b7fc6499.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.f493ca2d.chunk.css.map": "/static/css/main.f493ca2d.chunk.css.map",
+    "static/css/main.82f181a0.chunk.css.map": "/static/css/main.82f181a0.chunk.css.map",
     "static/js/2.166e65ac.chunk.js.LICENSE.txt": "/static/js/2.166e65ac.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/bg.c6455320.jpg",
     "static/media/dropship-logo.png": "/static/media/dropship-logo.9711bd42.png",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.2f15d624.js",
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.166e65ac.chunk.js",
-    "static/css/main.f493ca2d.chunk.css",
+    "static/css/main.82f181a0.chunk.css",
     "static/js/main.cbfcc578.chunk.js"
   ]
 }
