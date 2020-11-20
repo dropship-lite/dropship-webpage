@@ -1,0 +1,269 @@
+.donate{
+    height: 80vh;
+    background-image: url('../../assets/images/bg.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+.donate .container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px){
+    .donate .container .paypal{
+        height: 60vh;
+        width: 80vw;
+        background-color: #c62a88;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 25px;
+    }
+    
+    .paypal .header{
+        height: 30%;
+        width: 100%;
+        /* background-color: aliceblue; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: 'Bree Serif';
+        font-size: 1.5em;
+    }
+    
+    .paypal .header-container{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 10px;
+        /* background-color: turquoise; */
+    }
+
+    .paypal .header .logo{
+        height: 100px;
+        width: 100px;
+    }
+
+    .paypal .content{
+        height: 30%;
+        width: 90%;
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paypal .content .form{
+        height: 100%;
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-family: 'Bree Serif';
+    }
+
+    .paypal .content .form-label{
+        height: 50%;
+        font-size: 3em;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        /* background-color: aqua; */
+    }
+
+    .paypal .content .form-input{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paypal .content .form-input .input{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .paypal .content input{
+        outline: none;
+        width: 100%;
+        /* outline-offset: 0px; */
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #fca3cc;
+        color: whitesmoke;
+        line-height: 24px;
+        border: 0px;
+        font-size: 60px;
+        text-align: end;
+    }
+
+    .paypal .foot{
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .paypal .foot .button{
+        display: flex;
+        height: 60px;
+        flex-direction: row;
+        align-items: center;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        color: #c62a88;
+        font-family: 'Bree Serif';
+        background-color: transparent;
+        padding: 5px 15px 5px;
+        border-radius: 30px;
+    }
+
+    .paypal .foot .button .logo-paypal{
+        height: 50px;
+        width: 50px;
+    }
+
+    .paypal .foot .button-container{
+        background-color: whitesmoke;
+        border-radius: 30px;
+    }
+
+    .button:enabled{
+        background-color: whitesmoke;
+    }
+}
+
+
+@media screen and (min-width: 480px){
+    
+    .donate .container .paypal{
+        height: 50vh;
+        width: 20vw;
+        background-color: #c62a88;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 25px;
+    }
+
+    .paypal .foot .button .logo-paypal{
+        height: 50px;
+        width: 50px;
+    }
+
+    .paypal .header .logo{
+        height: 150px;
+        width: 150px;
+    }
+
+    .paypal .header{
+        height: 25%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* background-color: tomato; */
+    }
+
+    .paypal .header .header-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: 'Bree Serif';
+    }
+
+    .paypal .header-container .brand-label{
+        font-size: 2em;
+    }
+
+    .paypal .content{
+        height: 55%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paypal .content .form{
+        height: 100%;
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Bree Serif';
+    }
+
+    .paypal .content .form-label{
+        height: 50%;
+        width: 70%;
+        font-size: 3em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .paypal .content .form-input{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .paypal .content .form-input .input{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paypal .form input{
+        outline: none;
+        width: 75%;
+        /* outline-offset: 0px; */
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #fca3cc;
+        color: whitesmoke;
+        line-height: 24px;
+        border: 0px;
+        font-size: 60px;
+        text-align: end;
+    }
+
+    .paypal .foot .button{
+        display: flex;
+        height: 60px;
+        flex-direction: row;
+        align-items: center;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        color: #c62a88;
+        font-family: 'Bree Serif';
+        background-color: transparent;
+        padding: 5px 30px 5px;
+        border-radius: 30px;
+    }
+
+    .paypal .foot .button-container{
+        background-color: whitesmoke;
+        border-radius: 30px;
+    }
+}

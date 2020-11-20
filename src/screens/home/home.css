@@ -1,0 +1,290 @@
+
+.homepage .upper-moon{
+    height: 80vh;
+    background-image: url('../../assets/images/bg.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+@media screen and (min-width:480px){
+
+    .homepage .upper-moon .upper{
+        font-family: 'Bree Serif';
+        text-align: end;
+        font-size: 3em;
+    }
+
+    .homepage .upper-moon .container{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .homepage .upper-moon .content .text{
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1.5em;
+    }
+    
+    .homepage .upper-moon .download{
+        display: flex;
+        height: 60px;
+        flex-direction: row;
+        align-items: center;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-family: 'Bree Serif';
+        background-color: transparent;
+        padding: 5px 15px 5px;
+        border-radius: 60px;
+        font-size: 1.5em;
+    }
+    
+    .homepage .upper-moon .download .android{
+        height: 50px;
+        width: 50px;
+    }
+
+    .download-container{
+        background-color: #c62a88;
+        border-radius: 60px;
+    }
+}
+
+@media screen and (max-width:480px){
+
+    .homepage .upper-moon .upper{
+        font-family: 'Bree Serif';
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .homepage .upper-moon .container{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homepage .upper-moon .content .text{
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .homepage .upper-moon .download{
+        display: flex;
+        height: 50px;
+        flex-direction: row;
+        align-items: center;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-family: 'Bree Serif';
+        background-color: transparent;
+        padding: 5px 15px 5px;
+        border-radius: 25px;
+    }
+    
+    .homepage .upper-moon .download .android{
+        height: 30px;
+        width: 30px;
+    }
+
+    .download-container{
+        background-color: #c62a88;
+        border-radius: 25px;
+    }
+}
+
+.homepage .upper-moon .content-container{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.homepage .upper-moon .content{
+    display: flex;
+}
+
+.download-container:hover{
+    background-color: #fca3cc;
+}
+
+.homepage .upper-moon .lower{
+    display: none;
+}
+
+.sized-box-width{
+    width: 10px;
+}
+
+@media screen and (min-width:480px){
+
+    .lower-moon{
+        padding-top: 75px;
+        background-image: url('../../assets/images/bg.jpg');
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .more{
+        width: 100vw;
+        position: absolute;
+        bottom: -100px;
+        background-color: #0000003f;
+    }
+    
+    .up, .down{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .arrow{
+        height: 50px;
+        color: white;
+    }
+
+    .floating-button{
+        position: fixed;
+        bottom: 50px;
+        left: 25px;
+        height: 75px;
+        width: 75px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: whitesmoke;
+        border-radius: 50px;
+    }
+    
+    .floating-container{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 50px;
+    }
+    
+    .floating-arrow{
+        height: 30px;
+    }
+
+    .image{
+        margin: 10px;
+        height: 550px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:480px){
+
+    .lower-moon{
+        background-image: url('../../assets/images/bg.jpg');
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .more{
+        width: 100vw;
+        height: 150px;
+        position: absolute;
+        bottom: -75px;
+        /* background-color: #0000003f; */
+    }
+    
+    .up, .down{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .down{
+        display: none;
+    }
+    
+    .arrow{
+        height: 50px;
+        color: white;
+    }
+
+    .floating-button{
+        position: fixed;
+        bottom: 25px;
+        left: 15px;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: whitesmoke;
+        border-radius: 50px;
+    }
+    
+    .floating-container{
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 50px;
+    }
+    
+    .floating-arrow{
+        height: 25px;
+    }
+
+    .image{
+        margin: 10px;
+        height: 170px;
+        width: 75px;
+    }
+}
+
+.more:hover, .floating-button:hover{
+    cursor: pointer;
+}
+
+.more-sections{
+    width: 90%;
+    color: white;
+    font-family: 'Bree Serif';
+}
+
+.more-sections .container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.app-label, .app-image{
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-home{
+    display: flex;
+}

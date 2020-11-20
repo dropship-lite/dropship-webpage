@@ -1,0 +1,94 @@
+.navigation{
+    /* background-image: url('../../assets/images/bg.jpg'); */
+    background-image: url('../../assets/images/bg2.webp');
+    background-size: cover;
+    /* background-color: #c62a88; */
+    padding: 10px;
+}
+
+.navigation .brand-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Bree Serif';
+    font-size: 2.3em;
+    color: white;
+}
+
+@media screen and (max-width: 350px){
+    .navigation .brand-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: 'Bree Serif';
+        font-size: 2em;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .navigation .brand-container .brand-logo .logo{
+        height: 75px;
+        width: 75px;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .navigation .brand-container .brand-logo .logo{
+        height: 125px;
+        width: 125px;
+    }
+}
+
+.navigation .nav-menu{
+    display: flex;
+}
+
+.navigation .nav-menu .nav-cont{
+    height: 40px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 10px;
+}
+
+.navigation .nav-menu .nav-cont .nav-items{
+    margin: 2px;
+    padding: 5px 15px 5px;
+    border-radius: 25px;
+}
+
+.nav-items:hover{
+    background-color: #fca3cc;
+    cursor: pointer;
+}
+
+
+.navigation .nav-menu .nav-cont .nav-items .nav-links{
+    font-family: 'Bree Serif';
+    color: white;
+    text-decoration: none;
+}
+
+.nav-items .android{
+    height: 30px;
+    width: 30px;
+}
+
+.nav-items .download{
+    display: flex;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: 'Bree Serif';
+}
+
+.nav-items .download .sized-box{
+    width: 10px;
+}
+
+/* .nav-items .download:hover{
+    background-color: #c62a88;
+} */
