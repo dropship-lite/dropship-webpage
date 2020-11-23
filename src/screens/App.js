@@ -1,11 +1,13 @@
 import React, { useState, } from 'react';
 import './App.css';
-import Navbar from './components/navbar'
 import {BrowserRouter as Router, Switch, Link, Route} from 'react-router-dom';
 import DonationPage from './donate/donate';
 import ReactGA from 'react-ga';
-import HomePage from './home/home-main';
 import more from '../assets/logos/more-arrow.png';
+
+import HomePage from './home/home-main';
+import Navbar from './components/navbar';
+import Footer from './footer/footer';
 
 function App(){
   return(
@@ -21,7 +23,7 @@ function App(){
         </Switch>
       </div>
       <div className="footer">
-        
+        <Footer/>
       </div>
     </Router>
     </>

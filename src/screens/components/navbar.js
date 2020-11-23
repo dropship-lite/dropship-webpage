@@ -8,7 +8,7 @@ import {Col, Container, Row} from 'react-bootstrap';
 
 function Navbar() {
     const downloadHandle = () => {
-        window.location.href = 'https://www.google.com';
+        // window.location.href = 'https://firebasestorage.googleapis.com/v0/b/dropship-lite.appspot.com/o/dropshipLite%2Fdropshiplite.apk?alt=media&token=f221e520-43b2-44db-8fbe-ec5899bb2ebc';
     };
     
     return (
@@ -35,7 +35,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-items">
-                            <button className="download">
+                            <button className="download" onClick={downloadHandle}>
                                 <img src={android} alt="" className="android"/>
                                 <div className="sized-box"></div>
                                 <div className="download-label">

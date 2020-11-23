@@ -4,6 +4,8 @@ import logo_dsl from '../../assets/logos/dropship-logo.png'
 import CurrencyInput from "react-number-format";
 import logo_paypal from "../../assets/logos/paypal.png";
 import { Component } from 'react';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 class DonationPage extends Component{
 
@@ -12,6 +14,8 @@ class DonationPage extends Component{
         this.state = {
             data:''
         }
+
+        Aos.init({duration: 3000});
     }
 
     handle(amount){
@@ -34,7 +38,7 @@ class DonationPage extends Component{
             <>
                 <div className="donate">
                     <div className="container">
-                        <div className="paypal">
+                        <div data-aos="zoom-out-up" className="paypal">
                             <div className="header">
                                 <div className="header-container">                    
                                     {/* logo here */}

@@ -53,6 +53,10 @@ function HomePage(){
         window.scroll({top: 0, behavior:'smooth'});
     }
 
+    const downloadHandle = () => {
+        // window.location.href = 'https://firebasestorage.googleapis.com/v0/b/dropship-lite.appspot.com/o/dropshipLite%2Fdropshiplite.apk?alt=media&token=f221e520-43b2-44db-8fbe-ec5899bb2ebc';
+    };
+
     useEffect(() => {
         Aos.init({duration: 3000});
     }, [])
@@ -79,7 +83,7 @@ function HomePage(){
                                 </div>
                                 <div className="sized-box-width"></div>
                                 <div className="download-container">
-                                    <button className="download">
+                                    <button className="download" onClick={downloadHandle}>
                                         <img src={android} alt="" className="android"/>
                                         <div className="sized-box-width"></div>
                                         <div className="download-label">
@@ -110,8 +114,8 @@ function HomePage(){
                     {/* tempat tunjuk screenshot */}
                     <div className="more-sections">
                         <div className="container">
-                            <div data-aos="fade-up-right" className="app-label">
-                                login
+                            <div data-aos="fade-right" className="app-label">
+                                SIMPLE STEP TO REGISTER <br/> WITH YOUR SOCIAL ACCOUNTS
                             </div>
                             <div data-aos="fade-up-left" className="app-image">
                                 <img src={login} alt="" className="image"/>
@@ -123,15 +127,15 @@ function HomePage(){
                             <div data-aos="fade-up-right" className="app-image">
                                 <img src={profile} alt="" className="image"/>
                             </div>
-                            <div data-aos="fade-up-left" className="app-label">
-                                profile
+                            <div data-aos="fade-down-left" className="app-label">
+                                CUSTOMIZE YOUR PROFILE AND KEEP TRACK ON YOUR DROPSHIP LITE SUBSCRIPTION
                             </div>
                         </div>
                     </div>
                     <div className="more-sections">
                         <div className="container">
-                            <div data-aos="fade-up-right" className="app-label">
-                                register stockist
+                            <div data-aos="fade-down-right" className="app-label">
+                                YOU ARE A STOCKIST? REGISTER YOURSELF AS STOCKIST EASILY BY ONLY A CLICK ON A BUTTON
                             </div>
                             <div data-aos="fade-up-left" className="app-image">
                                 <img src={reg_stockist} alt="" className="image"/>
@@ -139,24 +143,24 @@ function HomePage(){
                         </div>
                     </div>
                     <div className="more-sections">
-                        <div className="container">                            
-                            <div data-aos="fade-up-right" className="app-image">
+                        <div data-aos="fade-up" className="container">                            
+                            <div className="app-image">
                                 <div className="app-home">
                                     <img src={home_daily} alt="" className="image"/>
                                     <img src={home_month} alt="" className="image"/>
                                 </div>
                             </div>
-                            <div data-aos="fade-up-left" className="app-label">
-                                home daily and home monthly
+                            <div className="app-label">
+                                VISUALLY TRACK YOUR SALES BASED ON DAILY OR MONTHLY
                             </div>
                         </div>
                     </div>
                     <div className="more-sections">
-                        <div data-aos="fade-up-right" className="container">
+                        <div data-aos="fade-down" className="container">
                             <div className="app-label">
-                                request item
+                                REQUEST TO RESTOCK PRODUCT FROM YOUR STOCKIST WITHIN DROPSHIP LITE
                             </div>
-                            <div data-aos="fade-up-left" className="app-image">
+                            <div data-aos="zoom-out-up" className="app-image">
                                 <img src={req_item} alt="" className="image"/>
                             </div>
                         </div>
@@ -167,27 +171,27 @@ function HomePage(){
                                 <img src={agents} alt="" className="image"/>
                             </div>
                             <div data-aos="fade-up-left" className="app-label">
-                                agent
+                                EXPAND YOUR BUSINESS REACH BY ADVERTISING YOUR JOB VACANCY IN DROPSHIP LITE
                             </div>
                         </div>
                     </div>
                     <div className="more-sections">
                         <div className="container"> 
                             <div data-aos="fade-up-right" className="app-label">
-                                home new
+                                INTRESTED TO JOIN DROPSHIPPING BUSINESS? FIND YOURSELF A BEST SUITED PRODUCT FOR YOU TO SELL
                             </div>                       
-                            <div data-aos="fade-up-left" className="app-image">
+                            <div data-aos="fade-down-left" className="app-image">
                                 <img src={home_new} alt="" className="image"/>
                             </div>
                         </div>
                     </div>
                     <div className="more-sections">
                         <div className="container">                        
-                            <div data-aos="fade-up-right" className="app-image">
+                            <div data-aos="zoom-in-right" className="app-image">
                                 <img src={chats} alt="" className="image"/>
                             </div>
-                            <div data-aos="fade-up-left" className="app-label">
-                                chats
+                            <div data-aos="zoom-in-left" className="app-label">
+                                CONNECT WITHIN YOUR BUSINESS GROUP FROM DROPSHIP LITE
                             </div>
                         </div>
                     </div>
