@@ -54,7 +54,7 @@ function HomePage(){
     }
 
     const downloadHandle = () => {
-        window.location.href = 'https://firebasestorage.googleapis.com/v0/b/dropship-lite.appspot.com/o/app-related%2Fdropshiplite.apk?alt=media&token=0d184cf5-1149-4d06-9d04-851b1a142821';
+        window.location.href = 'https://firebasestorage.googleapis.com/v0/b/dropship-lite.appspot.com/o/app-related%2Fapp-release.apk?alt=media&token=de9a5900-c3ea-4cb9-a8d4-7f563fc93948';
     };
 
     useEffect(() => {
